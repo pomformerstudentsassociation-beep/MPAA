@@ -1,0 +1,52 @@
+body{
+  font-family: Arial, sans-serif;
+  margin:0;
+  background:#f2f4f7;
+}
+
+header{
+  background: maroon;
+  color:white;
+  padding:15px;
+  text-align:center;
+}
+
+header button{
+  margin-top:10px;
+  padding:8px 16px;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+main{
+  padding:15px;
+}
+
+.card{
+  background:white;
+  max-width:900px;
+  margin:auto;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+ol li{
+  margin-bottom:15px;
+  line-height:1.6;
+  font-size: 20px;
+}
+
+footer{
+  text-align:center;
+  padding:10px;
+  color:white;
+  background: maroon;
+}
+
+/* Mobile optimization */
+@media (max-width:600px){
+  h1{font-size:22px;}
+  .card{padding:15px;}
+}
